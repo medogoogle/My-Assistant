@@ -1,0 +1,54 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="new_trade"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_trade_short"
+        android:shortcutLongLabel="@string/shortcut_trade_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.myassistant.app"
+            android:targetClass="com.myassistant.app.MainActivity">
+            <extra android:name="shortcut_action" android:value="trade"/>
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="new_transaction"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_tx_short"
+        android:shortcutLongLabel="@string/shortcut_tx_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.myassistant.app"
+            android:targetClass="com.myassistant.app.MainActivity">
+            <extra android:name="shortcut_action" android:value="transaction"/>
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="new_debt"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_debt_short"
+        android:shortcutLongLabel="@string/shortcut_debt_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.myassistant.app"
+            android:targetClass="com.myassistant.app.MainActivity">
+            <extra android:name="shortcut_action" android:value="debt"/>
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="new_task"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_task_short"
+        android:shortcutLongLabel="@string/shortcut_task_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.myassistant.app"
+            android:targetClass="com.myassistant.app.MainActivity">
+            <extra android:name="shortcut_action" android:value="task"/>
+        </intent>
+    </shortcut>
+</shortcuts>

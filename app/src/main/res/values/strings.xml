@@ -1,0 +1,11 @@
+<resources>
+<string name="app_name">مساعدي</string>
+<string name="shortcut_trade_short">صفقة جديدة</string>
+<string name="shortcut_trade_long">تسجيل صفقة تداول جديدة</string>
+<string name="shortcut_tx_short">حركة مالية</string>
+<string name="shortcut_tx_long">إضافة حركة مالية جديدة</string>
+<string name="shortcut_debt_short">دين جديد</string>
+<string name="shortcut_debt_long">إضافة دين جديد</string>
+<string name="shortcut_task_short">مهمة جديدة</string>
+<string name="shortcut_task_long">إضافة مهمة جديدة</string>
+</resources>
